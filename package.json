@@ -1,0 +1,26 @@
+{
+  "name": "array-where",
+  "version": "1.0.1",
+  "description": "A transpilation to array.filter() functionality, but with a clearer linguistic intent.",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "array",
+    "filter",
+    "where",
+    "typescript",
+    "array extension",
+    "array prototype",
+    "array filtering"
+  ],
+  "author": "Blake Watkin",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.3.3"
+  }
+}
